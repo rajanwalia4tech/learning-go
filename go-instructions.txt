@@ -1,0 +1,31 @@
+
+1. Create the module in Go.
+go mod init hello
+
+2. Run the go file
+go run main.go
+
+3. To check the path where go has installed
+go env GOPATH
+
+4. Golang DataTypes
+- String
+- Bool
+- Integer - uint8, uint64, int8, int64, uintptr
+- Floating - float32, float64
+- Complex
+
+4. Advance Types 
+- Arrays
+- Slices
+- structs
+- Maps
+- Pointers
+- functions
+- channels
+- mutex
+
+Variables
+- Case Insensitive - almost
+- Variable type should be known in advance.
+- Everything is type
