@@ -22,8 +22,9 @@ def count_primes_up_to(n):
             count += 1
     return count
 
+# Took 57.85 seconds on Mac M1 8GB Ram
 start_time = time.time()
-count = count_primes_up_to(int(math.pow(10,8)))
+count = count_primes_up_to(int(math.pow(10,7)))
 end_time = time.time()
 print()
 print("---------- Python Performance -----------")

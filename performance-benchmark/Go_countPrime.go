@@ -28,9 +28,10 @@ func countPrimes(start, end int) int {
 	return count
 }
 
+// Took 1.25 seconds on Mac M1 8GB Ram
 func main() {
 	start := time.Now()
-	count := countPrimes(1, int(math.Pow(10, 8)))
+	count := countPrimes(1, int(math.Pow(10, 7)))
 	end := time.Now()
 	fmt.Println()
 	fmt.Println("---------- GO Performance -----------")

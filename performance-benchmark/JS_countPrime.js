@@ -20,8 +20,9 @@ function isPrime(num) {
     return count;
   }
   
+  // Took 2.25 seconds on Mac M1 8GB Ram
   const start = new Date();
-  const count = countPrimes(1, Math.pow(10,8));
+  const count = countPrimes(1, Math.pow(10,7));
   const end = new Date();
   console.log();
 	console.log("------- NodeJS Performance -------");
