@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+// test := "test" // This syntax doesn't work in global variable
 func main() {
 	fmt.Println("Length of String :  ", len("rajan")) // 5
 	fmt.Println("Hello " + "   World")                // concatenation
