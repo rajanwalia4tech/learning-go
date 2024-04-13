@@ -17,3 +17,24 @@ go env GOPATH
 ```
 
 
+## Golang DataTypes
+- String
+- Bool
+- Integer - uint8, uint64, int8, int64, uintptr
+- Floating - float32, float64
+- Complex
+
+## Advance Types 
+- Arrays
+- Slices
+- structs
+- Maps
+- Pointers
+- functions
+- channels
+- mutex
+
+## Variables
+- Case Insensitive - almost
+- Variable type should be known in advance.
+- Almost everything is type here
