@@ -16,6 +16,25 @@ go run main.go
 go env GOPATH
 ```
 
+## Build for different OS
+
+### Type the below command
+```
+go env
+```
+
+### Using the GOOS command, we can build the executable for different OS
+```
+GOOS="windows" go build // build for windows
+
+GOOS="linux" go build // build for linux
+
+GOOS="darwin" go build // build for mac
+
+```
+
+
+
 
 ## Golang DataTypes
 - String
