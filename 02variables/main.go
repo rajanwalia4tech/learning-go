@@ -5,7 +5,7 @@ import "fmt"
 // JWT_TOKEN :="skldgjslkgj" // can't use this type of implicit declaration for global variables
 var JWT_TOKEN string = "slkjgslkgjsklgj"
 
-func main() {
+func main1() {
 	fmt.Println("JWT ---- ", JWT_TOKEN)
 
 	fmt.Println("------ Variables ------")
@@ -16,7 +16,7 @@ func main() {
 
 	fmt.Println("----------------------")
 
-	var isLoggedIn bool // = false // Default value for bool is false
+	var isLoggedIn bool = true // Default value for bool is false
 	fmt.Println("Value : ", isLoggedIn)
 	fmt.Printf("Type of age : %T\n", isLoggedIn)
 	fmt.Printf("VALUE : %D\n", isLoggedIn)
